@@ -1,0 +1,28 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "master",
+    "commit": "2d8b41a87cec884489ead138b5dfea31487363f3"
+  },
+  "dependencies": {
+    "basePackages": {
+      "package-A": {
+        "path": "../package-A"
+      },
+      "package-B": {
+        "path": "../package-B"
+      }
+    },
+    "packages": {
+      "package-A": {
+        "path": "../package-A"
+      },
+      "package-B": {
+        "path": "../package-B"
+      },
+      "package-C": {
+        "path": "../package-C"
+      }
+    }
+  }
+}
